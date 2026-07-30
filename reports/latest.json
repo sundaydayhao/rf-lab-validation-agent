@@ -1,0 +1,397 @@
+{
+  "generated_at": "2026-07-30T15:00:41.085117+08:00",
+  "records": [
+    {
+      "record": {
+        "test_id": "RX-001",
+        "timestamp": "2026-07-20T10:00:00+08:00",
+        "band": "n78",
+        "rat": "NR",
+        "channel": "633334",
+        "temperature_c": 25.0,
+        "expected_sensitivity_dbm": -96.0,
+        "measured_sensitivity_dbm": -97.2,
+        "expected_throughput_mbps": 720.0,
+        "measured_throughput_mbps": 710.0,
+        "expected_evm_pct": 3.5,
+        "measured_evm_pct": 3.1,
+        "expected_rsrp_dbm": -80.0,
+        "measured_rsrp_dbm": -79.5,
+        "issue_id": null,
+        "notes": "baseline",
+        "raw": {
+          "test_id": "RX-001",
+          "timestamp": "2026-07-20T10:00:00+08:00",
+          "band": "n78",
+          "rat": "NR",
+          "channel": "633334",
+          "temperature_c": "25",
+          "expected_sensitivity_dbm": "-96.0",
+          "measured_sensitivity_dbm": "-97.2",
+          "expected_throughput_mbps": "720",
+          "measured_throughput_mbps": "710",
+          "expected_evm_pct": "3.5",
+          "measured_evm_pct": "3.1",
+          "expected_rsrp_dbm": "-80",
+          "measured_rsrp_dbm": "-79.5",
+          "issue_id": "",
+          "notes": "baseline"
+        }
+      },
+      "metrics": [
+        {
+          "name": "sensitivity",
+          "expected": -96.0,
+          "measured": -97.2,
+          "status": "pass",
+          "delta": -1.2000000000000028,
+          "unit": "dBm",
+          "detail": "-1.20 dB versus expected; lower is better"
+        },
+        {
+          "name": "throughput",
+          "expected": 720.0,
+          "measured": 710.0,
+          "status": "pass",
+          "delta": -10.0,
+          "unit": "Mbps",
+          "detail": "98.6% of expected; higher is better"
+        },
+        {
+          "name": "evm",
+          "expected": 3.5,
+          "measured": 3.1,
+          "status": "pass",
+          "delta": -0.3999999999999999,
+          "unit": "%",
+          "detail": "88.6% of expected limit; lower is better"
+        },
+        {
+          "name": "rsrp",
+          "expected": -80.0,
+          "measured": -79.5,
+          "status": "pass",
+          "delta": 0.5,
+          "unit": "dBm",
+          "detail": "+0.50 dB versus expected; higher is better"
+        }
+      ],
+      "status": "pass",
+      "score": 100,
+      "recommendations": [
+        "Advance to the next band/channel corner or reduce step size near the pass margin."
+      ]
+    },
+    {
+      "record": {
+        "test_id": "RX-002",
+        "timestamp": "2026-07-21T10:00:00+08:00",
+        "band": "n78",
+        "rat": "NR",
+        "channel": "633334",
+        "temperature_c": 25.0,
+        "expected_sensitivity_dbm": -96.0,
+        "measured_sensitivity_dbm": -95.4,
+        "expected_throughput_mbps": 720.0,
+        "measured_throughput_mbps": 706.0,
+        "expected_evm_pct": 3.5,
+        "measured_evm_pct": 3.4,
+        "expected_rsrp_dbm": -80.0,
+        "measured_rsrp_dbm": -80.1,
+        "issue_id": null,
+        "notes": "near margin",
+        "raw": {
+          "test_id": "RX-002",
+          "timestamp": "2026-07-21T10:00:00+08:00",
+          "band": "n78",
+          "rat": "NR",
+          "channel": "633334",
+          "temperature_c": "25",
+          "expected_sensitivity_dbm": "-96.0",
+          "measured_sensitivity_dbm": "-95.4",
+          "expected_throughput_mbps": "720",
+          "measured_throughput_mbps": "706",
+          "expected_evm_pct": "3.5",
+          "measured_evm_pct": "3.4",
+          "expected_rsrp_dbm": "-80",
+          "measured_rsrp_dbm": "-80.1",
+          "issue_id": "",
+          "notes": "near margin"
+        }
+      },
+      "metrics": [
+        {
+          "name": "sensitivity",
+          "expected": -96.0,
+          "measured": -95.4,
+          "status": "pass",
+          "delta": 0.5999999999999943,
+          "unit": "dBm",
+          "detail": "+0.60 dB versus expected; lower is better"
+        },
+        {
+          "name": "throughput",
+          "expected": 720.0,
+          "measured": 706.0,
+          "status": "pass",
+          "delta": -14.0,
+          "unit": "Mbps",
+          "detail": "98.1% of expected; higher is better"
+        },
+        {
+          "name": "evm",
+          "expected": 3.5,
+          "measured": 3.4,
+          "status": "pass",
+          "delta": -0.10000000000000009,
+          "unit": "%",
+          "detail": "97.1% of expected limit; lower is better"
+        },
+        {
+          "name": "rsrp",
+          "expected": -80.0,
+          "measured": -80.1,
+          "status": "pass",
+          "delta": -0.09999999999999432,
+          "unit": "dBm",
+          "detail": "-0.10 dB versus expected; higher is better"
+        }
+      ],
+      "status": "pass",
+      "score": 100,
+      "recommendations": [
+        "Advance to the next band/channel corner or reduce step size near the pass margin."
+      ]
+    },
+    {
+      "record": {
+        "test_id": "RX-003",
+        "timestamp": "2026-07-22T10:00:00+08:00",
+        "band": "n78",
+        "rat": "NR",
+        "channel": "633334",
+        "temperature_c": 45.0,
+        "expected_sensitivity_dbm": -96.0,
+        "measured_sensitivity_dbm": -93.8,
+        "expected_throughput_mbps": 720.0,
+        "measured_throughput_mbps": 640.0,
+        "expected_evm_pct": 3.5,
+        "measured_evm_pct": 4.2,
+        "expected_rsrp_dbm": -80.0,
+        "measured_rsrp_dbm": -83.0,
+        "issue_id": "RF-128",
+        "notes": "hot chamber drift",
+        "raw": {
+          "test_id": "RX-003",
+          "timestamp": "2026-07-22T10:00:00+08:00",
+          "band": "n78",
+          "rat": "NR",
+          "channel": "633334",
+          "temperature_c": "45",
+          "expected_sensitivity_dbm": "-96.0",
+          "measured_sensitivity_dbm": "-93.8",
+          "expected_throughput_mbps": "720",
+          "measured_throughput_mbps": "640",
+          "expected_evm_pct": "3.5",
+          "measured_evm_pct": "4.2",
+          "expected_rsrp_dbm": "-80",
+          "measured_rsrp_dbm": "-83.0",
+          "issue_id": "RF-128",
+          "notes": "hot chamber drift"
+        }
+      },
+      "metrics": [
+        {
+          "name": "sensitivity",
+          "expected": -96.0,
+          "measured": -93.8,
+          "status": "fail",
+          "delta": 2.200000000000003,
+          "unit": "dBm",
+          "detail": "+2.20 dB versus expected; lower is better"
+        },
+        {
+          "name": "throughput",
+          "expected": 720.0,
+          "measured": 640.0,
+          "status": "fail",
+          "delta": -80.0,
+          "unit": "Mbps",
+          "detail": "88.9% of expected; higher is better"
+        },
+        {
+          "name": "evm",
+          "expected": 3.5,
+          "measured": 4.2,
+          "status": "fail",
+          "delta": 0.7000000000000002,
+          "unit": "%",
+          "detail": "120.0% of expected limit; lower is better"
+        },
+        {
+          "name": "rsrp",
+          "expected": -80.0,
+          "measured": -83.0,
+          "status": "warn",
+          "delta": -3.0,
+          "unit": "dBm",
+          "detail": "-3.00 dB versus expected; higher is better"
+        }
+      ],
+      "status": "fail",
+      "score": 15,
+      "recommendations": [
+        "Run a receiver sensitivity sweep around the failing point with 0.5 dB input power steps.",
+        "Check cable loss, attenuator calibration, and CMW100 path compensation.",
+        "Repeat throughput with fixed MCS, stable BLER target, and captured scheduler/OAI logs.",
+        "Capture signal quality at low/mid/high channel and compare PA, LO, and clock reference settings.",
+        "Re-run at 25 C as a control point before widening temperature coverage."
+      ]
+    },
+    {
+      "record": {
+        "test_id": "RX-004",
+        "timestamp": "2026-07-22T11:00:00+08:00",
+        "band": "B3",
+        "rat": "LTE",
+        "channel": "1575",
+        "temperature_c": 25.0,
+        "expected_sensitivity_dbm": -104.0,
+        "measured_sensitivity_dbm": -104.5,
+        "expected_throughput_mbps": 145.0,
+        "measured_throughput_mbps": 142.0,
+        "expected_evm_pct": 8.0,
+        "measured_evm_pct": 7.5,
+        "expected_rsrp_dbm": -85.0,
+        "measured_rsrp_dbm": -84.2,
+        "issue_id": null,
+        "notes": "lte control point",
+        "raw": {
+          "test_id": "RX-004",
+          "timestamp": "2026-07-22T11:00:00+08:00",
+          "band": "B3",
+          "rat": "LTE",
+          "channel": "1575",
+          "temperature_c": "25",
+          "expected_sensitivity_dbm": "-104.0",
+          "measured_sensitivity_dbm": "-104.5",
+          "expected_throughput_mbps": "145",
+          "measured_throughput_mbps": "142",
+          "expected_evm_pct": "8.0",
+          "measured_evm_pct": "7.5",
+          "expected_rsrp_dbm": "-85",
+          "measured_rsrp_dbm": "-84.2",
+          "issue_id": "",
+          "notes": "lte control point"
+        }
+      },
+      "metrics": [
+        {
+          "name": "sensitivity",
+          "expected": -104.0,
+          "measured": -104.5,
+          "status": "pass",
+          "delta": -0.5,
+          "unit": "dBm",
+          "detail": "-0.50 dB versus expected; lower is better"
+        },
+        {
+          "name": "throughput",
+          "expected": 145.0,
+          "measured": 142.0,
+          "status": "pass",
+          "delta": -3.0,
+          "unit": "Mbps",
+          "detail": "97.9% of expected; higher is better"
+        },
+        {
+          "name": "evm",
+          "expected": 8.0,
+          "measured": 7.5,
+          "status": "pass",
+          "delta": -0.5,
+          "unit": "%",
+          "detail": "93.8% of expected limit; lower is better"
+        },
+        {
+          "name": "rsrp",
+          "expected": -85.0,
+          "measured": -84.2,
+          "status": "pass",
+          "delta": 0.7999999999999972,
+          "unit": "dBm",
+          "detail": "+0.80 dB versus expected; higher is better"
+        }
+      ],
+      "status": "pass",
+      "score": 100,
+      "recommendations": [
+        "Advance to the next band/channel corner or reduce step size near the pass margin."
+      ]
+    }
+  ],
+  "anomalies": [
+    {
+      "group": [
+        "NR",
+        "n78",
+        "633334"
+      ],
+      "metric": "sensitivity",
+      "severity": "high",
+      "detail": "sensitivity drifted from -97.20 to -93.80 dBm",
+      "affected_test_ids": [
+        "RX-001",
+        "RX-002",
+        "RX-003"
+      ]
+    },
+    {
+      "group": [
+        "NR",
+        "n78",
+        "633334"
+      ],
+      "metric": "throughput",
+      "severity": "medium",
+      "detail": "throughput moved from 710.00 to 640.00 Mbps",
+      "affected_test_ids": [
+        "RX-001",
+        "RX-002",
+        "RX-003"
+      ]
+    },
+    {
+      "group": [
+        "NR",
+        "n78",
+        "633334"
+      ],
+      "metric": "evm",
+      "severity": "high",
+      "detail": "EVM moved from 3.10% to 4.20%",
+      "affected_test_ids": [
+        "RX-001",
+        "RX-002",
+        "RX-003"
+      ]
+    },
+    {
+      "group": [
+        "NR",
+        "n78",
+        "633334"
+      ],
+      "metric": "rsrp",
+      "severity": "high",
+      "detail": "RSRP moved from -79.50 to -83.00 dBm",
+      "affected_test_ids": [
+        "RX-001",
+        "RX-002",
+        "RX-003"
+      ]
+    }
+  ],
+  "issue_base_url": "https://gitee.com/zhanghaogit/rf-lab-validation-agent/issues",
+  "overall_status": "fail"
+}

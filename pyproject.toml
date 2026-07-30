@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rf-lab-validation-agent"
+version = "0.1.0"
+description = "RF lab validation automation agent for sensitivity, throughput, signal quality, trend detection, and reports."
+requires-python = ">=3.10"
+readme = "README.md"
+authors = [{ name = "RF Lab Validation Agent" }]
+
+[project.scripts]
+rf-lab-agent = "rf_lab_validation_agent.cli:main"

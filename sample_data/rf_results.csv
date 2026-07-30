@@ -1,0 +1,5 @@
+test_id,timestamp,band,rat,channel,temperature_c,expected_sensitivity_dbm,measured_sensitivity_dbm,expected_throughput_mbps,measured_throughput_mbps,expected_evm_pct,measured_evm_pct,expected_rsrp_dbm,measured_rsrp_dbm,issue_id,notes
+RX-001,2026-07-20T10:00:00+08:00,n78,NR,633334,25,-96.0,-97.2,720,710,3.5,3.1,-80,-79.5,,baseline
+RX-002,2026-07-21T10:00:00+08:00,n78,NR,633334,25,-96.0,-95.4,720,706,3.5,3.4,-80,-80.1,,near margin
+RX-003,2026-07-22T10:00:00+08:00,n78,NR,633334,45,-96.0,-93.8,720,640,3.5,4.2,-80,-83.0,RF-128,hot chamber drift
+RX-004,2026-07-22T11:00:00+08:00,B3,LTE,1575,25,-104.0,-104.5,145,142,8.0,7.5,-85,-84.2,,lte control point
